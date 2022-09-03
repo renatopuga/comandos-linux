@@ -338,6 +338,55 @@ Utilizar o comando `diff` para identificar as linhas que são diferentes entre o
 3. Salvar o resultado do comadno diff em um novo arquivo chamado: `hg19-hg38-chr22-diff.txt`
 4. md5sum hg19-hg38-chr22-diff.txt (no chat)
 
+**Respostas**
+
+Voltar para o diretório Workspace:
+```bash
+cd /workspace/comandos-linux
+```
+
+Criar os diretórios para cada versão do genoma:
+
+```bash
+mkdir hg19 hg38
+```
+
+Fazer download de cada versão:
+
+**hg19**
+```bash
+cd hg19
+wget -c https://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz
+```
+
+**hg38**
+```bash
+cd ../hg38
+wget -c https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz
+```
+
+Voltar um diretorio
+```bash
+cd ..
+```
+
+Rodando o comando `diff` entre os chr22:
+```bash
+diff <(zcat hg19/chr22.fa.gz) <(hg38/chr22.fa.gz) > hg19-hg38-diff-chr22.txt
+```
+
+```bash
+md5sum hg19-hg38-diff-chr22.txt
+```
+
+> Nota: Caso tenho rodado o diff na ordem hg38 hg19 (hg38-hg19-chr22-diff.txt) o hash será diferente.
+
+```bash
+md5sum hg*.txt
+a3891e51d50acaf1aa36d42dbc3f37d3  hg19-hg38-chr22-diff.txt
+ed1ae57cf51c5a92d0af656b3ec54000  hg38-hg19-chr22-diff.txt
+```
+
 
 # Anexo
 
