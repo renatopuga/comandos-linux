@@ -154,6 +154,7 @@ cp README.md Outro.md
 
 Aluno | md5sum | nome do arquivo
 ------|--------|-----------------
+Renato | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
 Victor | b4f311ec2152e8f05b3ccf2c01def35 | todos_os_arquivos.txt
 Giovanna | 0412a2caeb33e9369813fa60349dabbe | todos-os-arquivos.txt
 Leonardo | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
