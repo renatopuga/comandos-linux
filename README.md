@@ -372,7 +372,7 @@ cd ..
 
 Rodando o comando `diff` entre os chr22:
 ```bash
-diff <(zcat hg19/chr22.fa.gz) <(hg38/chr22.fa.gz) > hg19-hg38-diff-chr22.txt
+diff <(zcat hg19/chr22.fa.gz) <(hg38/chr22.fa.gz) > hg19-hg38-chr22-diff.txt
 ```
 
 ```bash
