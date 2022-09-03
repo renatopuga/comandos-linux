@@ -380,7 +380,7 @@ md5sum hg19-hg38-diff-chr22.txt
 a3891e51d50acaf1aa36d42dbc3f37d3
 ```
 
-> Nota: Caso tenho rodado o diff na ordem hg38 hg19 (hg38-hg19-chr22-diff.txt) o hash será diferente.
+> Nota: Caso tenha rodado o diff na ordem hg38 hg19 (hg38-hg19-chr22-diff.txt) o hash será diferente.
 
 ```bash
 md5sum hg*.txt
