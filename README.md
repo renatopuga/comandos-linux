@@ -158,6 +158,9 @@ Victor | b4f311ec2152e8f05b3ccf2c01def35 | todos_os_arquivos.txt
 Giovanna | 0412a2caeb33e9369813fa60349dabbe | todos-os-arquivos.txt
 Leonardo | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
 Greyce | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
-
-
+Paulo | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
+Fábio | 27995247488fcfce15d989c2fe79a0a7 | todos-os-arquivos.txt
+Márcio | 10afc6d42d6ec6263329bf3d6751a2a1 | todos-os-arquivos.txt
+Nathalia | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
+Yuri | 35fbaf692033a9741935cd0046064fba | todos-os-arquivos.txt
 
