@@ -171,3 +171,44 @@ Marina | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
 Ivone | 424ca4a748b6b43991ecb4dd0370ee77 | todos-os-arquivos.txt
 Andressa | d41d8cd98f00b204e9800998ecf8427e | todososarquivos.txt
 Geovana | 24f0f055ba9d2f783dcb3c549fc4e42e | todos-os-arquivos.txt
+
+
+## unzip
+
+Descompactar arquivos .zip 
+
+```bash
+unzip gatk-4.2.6.1.zip
+```
+
+> Nota: se o arquivo for `.gzip` o comando seria: `gunzip`
+
+
+
+## cd 
+
+Para navegar entre os diretórios
+
+```bash
+# Entrar em um diretório
+cd gatk-4.2.6.1
+```
+
+```bash
+# voltar para o diretório anterior
+cd ..
+```
+
+> Nota: sempre será: comando [espaço] opção
+
+
+
+## Ex2
+
+
+
+1. Entrar no diretório do gatk
+2. Identificar o tipo de todos os arquivos no diretório
+3. Salvar em novo arquivo chamado `todos-os-arquivos-gatk.txt`
+4. Gerar o md5sum do arquivo `todos-os-arquivos-gatk.txt`
+
