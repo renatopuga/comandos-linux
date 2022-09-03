@@ -212,5 +212,27 @@ cd ..
 3. Salvar em novo arquivo chamado `todos-os-arquivos-gatk.txt`
 4. Gerar o md5sum do arquivo `todos-os-arquivos-gatk.txt`
 
+```
+a:                              ASCII text
+gatk:                           Python script, ASCII text executable
+gatk-completion.sh:             ASCII text, with very long lines
+gatkcondaenv.yml:               ASCII text
+GATKConfig.EXAMPLE.properties:  ReStructuredText file, ASCII text
+gatkdoc:                        directory
+gatk-package-4.2.6.1-local.jar: Zip archive data, at least v1.0 to extract
+gatk-package-4.2.6.1-spark.jar: Zip archive data, at least v1.0 to extract
+gatkPythonPackageArchive.zip:   Zip archive data, at least v1.0 to extract
+README.md:                      UTF-8 Unicode text, with very long lines
+scripts:                        directory
+```
+
 
 > md5sum esperado: `f725ca4388802ef3ec3652e0951b5211`
+
+
+
+
+# Anexo
+
+![image](https://user-images.githubusercontent.com/8321336/188283993-c63fe72b-b2a3-4c27-8277-432f86e75d13.png)
+
