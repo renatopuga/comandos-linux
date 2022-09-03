@@ -272,6 +272,38 @@ tmpfs              64M     0   64M   0% /proc/keys
 tmpfs              32G     0   32G   0% /proc/scsi
 ```
 
+# seq e awk
+
+> https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/
+
+
+
+Gerar uma sequencia de número de 1 até 22 com o comando `seq` e combinar com o comando `awk` para gerar um arquivo de download com o comando `wget` dos cromossomos do hg38 na UCSC.
+
+
+
+```bash
+seq 1 22 | awk '{print("wget -c https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr"$1".fa.gz")}' > pegar-fa.txt
+```
+
+
+
+**Excecutar** (download automático por chr)
+
+```bash
+sh pegar-fa.txt
+```
+
+
+
+**Concatenando os arquivos**
+
+> zcat  foi utilizado para não precisar descompactar os arquivos de chr
+
+```bash
+zcat chr1.fa.gz chr2.fa.gz ... chr22.fa.gz > hg38.fa
+```
+
 
 
 ## grep
@@ -298,7 +330,13 @@ ACAGCGAGTCAGCATGCTGTACGAT
 ```
 
 
+# Ex3
+Utilizar o comando `diff` para identificar as linhas que são diferentes entre os chr22 (hg19) e chr22 (hg38)
 
+1. Download do chr22 das duas versões do genoma (hg19 e hg38)
+2. Utilizar o comando `diff` (ver o help: diff --help)
+3. Salvar o resultado do comadno diff em um novo arquivo chamado: `hg19-hg38-chr22-diff.txt`
+4. md5sum hg19-hg38-chr22-diff.txt (no chat)
 
 
 # Anexo
