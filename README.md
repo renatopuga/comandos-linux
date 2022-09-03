@@ -212,3 +212,5 @@ cd ..
 3. Salvar em novo arquivo chamado `todos-os-arquivos-gatk.txt`
 4. Gerar o md5sum do arquivo `todos-os-arquivos-gatk.txt`
 
+
+> md5sum esperado: `f725ca4388802ef3ec3652e0951b5211`
