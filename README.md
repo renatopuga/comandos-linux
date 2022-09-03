@@ -230,6 +230,75 @@ scripts:                        directory
 > md5sum esperado: `f725ca4388802ef3ec3652e0951b5211`
 
 
+## mkdir
+
+Comando para criar diretório
+
+
+
+```bash
+mkdir reference app input ouput
+```
+
+
+
+## df
+
+Verfica o espaço utilizado em disco
+
+```bash
+# -h: humano entender
+df -h
+```
+
+**output**
+
+`/`: como o c:\ no Windows
+
+`/workspace`: onde ficam nossos arquivos (gitpod)
+
+```bash
+Filesystem        Size  Used Avail Use% Mounted on
+/.workspace/mark  1.5T  1.1T  375G  76% /
+tmpfs              64M     0   64M   0% /dev
+/dev/sda1         512G   16G  496G   4% /dev/termination-log
+shm                64M     0   64M   0% /dev/shm
+tmpfs              32G     0   32G   0% /sys/firmware
+/dev/md42          30G  1.6G   29G   6% /workspace
+/dev/md44         1.5T  1.1T  375G  76% /etc/hostname
+tmpfs              32G     0   32G   0% /tmp
+tmpfs              32G     0   32G   0% /proc/acpi
+tmpfs              64M     0   64M   0% /proc/keys
+tmpfs              32G     0   32G   0% /proc/scsi
+```
+
+
+
+## grep
+
+Comando para procurar uma *string* dentro de um arquivo texto.
+
+```bash
+grep ">" hg38.fa
+```
+
+
+
+Ex.: Arquivo FASTA
+
+```bash
+>SEQ_01
+ACAGCGAGTCAGCATGCTGTACGAT
+ACAGCGAGTCAGCATGCTGTACGAT
+ACAGCGAGTCAGCATGCTGTACGAT
+>SEQ_02
+ACAGCGAGTCAGCATGCTGTACGAT
+ACAGCGAGTCAGCATGCTGTACGAT
+ACAGCGAGTCAGCATGCTGTACGAT
+```
+
+
+
 
 
 # Anexo
