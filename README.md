@@ -167,3 +167,6 @@ Lucas | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
 Erick | 83bf3f22dc6abe1882f0b3516a29174c | todos-os-arquivos.txt
 Aldi | 27995247488fcfce15d989c2fe79a0a7 | todos-os-arquivos.txt
 Marina | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
+Ivone | 424ca4a748b6b43991ecb4dd0370ee77 | todos-os-arquivos.txt
+Andressa | d41d8cd98f00b204e9800998ecf8427e | todososarquivos.txt
+Geovana | 24f0f055ba9d2f783dcb3c549fc4e42e | todos-os-arquivos.txt
