@@ -163,4 +163,7 @@ Fábio | 27995247488fcfce15d989c2fe79a0a7 | todos-os-arquivos.txt
 Márcio | 10afc6d42d6ec6263329bf3d6751a2a1 | todos-os-arquivos.txt
 Nathalia | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
 Yuri | 35fbaf692033a9741935cd0046064fba | todos-os-arquivos.txt
-
+Lucas | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
+Erick | 83bf3f22dc6abe1882f0b3516a29174c | todos-os-arquivos.txt
+Aldi | 27995247488fcfce15d989c2fe79a0a7 | todos-os-arquivos.txt
+Marina | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
