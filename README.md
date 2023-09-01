@@ -1,6 +1,6 @@
 # Comando Linux - Terminal Gitpod
 
-> 2022-09-03 - Renato Puga
+> 2023-09-01 - Renato Puga
 
 
 
