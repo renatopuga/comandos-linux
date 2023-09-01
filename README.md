@@ -24,6 +24,18 @@ Comandos utilizados em aula para o terminal Linux.
 - Navegação
 - Segurança
 
+```bash
+ ___________ 
+< Vamos lá >
+ ----------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+---
 
 ## wget - Download de Arquivos via terminal
 
