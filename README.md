@@ -8,7 +8,6 @@ Comandos utilizados em aula para o terminal Linux.
 
 
 
-[TOC]
 
 ---
 
@@ -18,23 +17,15 @@ Comandos utilizados em aula para o terminal Linux.
 
 
 
-### Download de arquivos
-
-### Instalação
-
-### Gerenciador de pacotes
-
-### Estrutura de Diretórios
-
-### Navegação
-
-### Segurança
+- Download de arquivos
+- Instalação
+- Gerenciador de pacotes
+- Estrutura de Diretórios
+- Navegação
+- Segurança
 
 
-
-
-
-## wget
+## wget - Download de Arquivos via terminal
 
 Utilizado para fazer download de uma URL. 
 
@@ -46,8 +37,7 @@ wget -c https://github.com/broadinstitute/gatk/releases/download/4.2.6.1/gatk-4.
 > Nota: uma dos comandos alternativos mais utilizados é o `curl`
 
 
-
-## clear
+## clear - Limpando a tela
 
 Utilizado para limpar o terminal
 
@@ -59,7 +49,7 @@ clear
 
 
 
-## htop
+## htop - Status de processos
 
 Listar os processos em execução, como o consumo de processamento e memória em tempo real.
 
@@ -77,7 +67,7 @@ htop
 
 
 
-## ls
+## ls - lista conteúdo de um diretório
 
 Lista o conteúdo (arquivos, diretórios, link simbólicos, etc) de um diretório.
 
@@ -112,7 +102,7 @@ total 443264
 
 
 
-## md5sum
+## md5sum - hash
 
 Gera um código hash (string grande) única para cada arquivo.
 
@@ -132,7 +122,7 @@ md5sum README.md
 
 
 
-## cp
+## cp - copiar
 
 Copia um arquivo para outro local ou com outro nome.
 
@@ -173,7 +163,7 @@ Andressa | d41d8cd98f00b204e9800998ecf8427e | todososarquivos.txt
 Geovana | 24f0f055ba9d2f783dcb3c549fc4e42e | todos-os-arquivos.txt
 
 
-## unzip
+## unzip - Descompactar
 
 Descompactar arquivos .zip 
 
@@ -185,7 +175,7 @@ unzip gatk-4.2.6.1.zip
 
 
 
-## cd 
+## cd - navegação
 
 Para navegar entre os diretórios
 
@@ -230,7 +220,7 @@ scripts:                        directory
 > md5sum esperado: `f725ca4388802ef3ec3652e0951b5211`
 
 
-## mkdir
+## mkdir - Criar diretório
 
 Comando para criar diretório
 
@@ -242,7 +232,7 @@ mkdir reference app input ouput
 
 
 
-## df
+## df - Status de armazenamento
 
 Verfica o espaço utilizado em disco
 
@@ -272,7 +262,7 @@ tmpfs              64M     0   64M   0% /proc/keys
 tmpfs              32G     0   32G   0% /proc/scsi
 ```
 
-# seq e awk
+# seq e awk 
 
 > https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/
 
@@ -306,7 +296,7 @@ zcat chr1.fa.gz chr2.fa.gz ... chr22.fa.gz > hg38.fa
 
 
 
-## grep
+## grep - Buscar por string
 
 Comando para procurar uma *string* dentro de um arquivo texto.
 
