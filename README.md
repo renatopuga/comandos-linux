@@ -218,7 +218,7 @@ Comando para criar diretório
 
 
 ```bash
-mkdir reference app input ouput
+mkdir reference app input output
 ```
 
 
