@@ -149,30 +149,9 @@ cp README.md Outro.md
 > Sabendo que o `>` redireciona o output padrão, da tela para um arquivo, faça:
 
 
-
 1. liste os arquivos do diretório `/workspace/comandos-linux`
 2. Salve o resultado dessa lista em um novo arquivo chamado `todos-os-arquivos.txt`
 3. Depois, gere o hash desse novo arquivo utilizando o md5sum. 
-
-Aluno | md5sum | nome do arquivo
-------|--------|-----------------
-Renato | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
-Victor | b4f311ec2152e8f05b3ccf2c01def35 | todos_os_arquivos.txt
-Giovanna | 0412a2caeb33e9369813fa60349dabbe | todos-os-arquivos.txt
-Leonardo | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
-Greyce | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
-Paulo | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
-Fábio | 27995247488fcfce15d989c2fe79a0a7 | todos-os-arquivos.txt
-Márcio | 10afc6d42d6ec6263329bf3d6751a2a1 | todos-os-arquivos.txt
-Nathalia | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
-Yuri | 35fbaf692033a9741935cd0046064fba | todos-os-arquivos.txt
-Lucas | efb9ed3316b1a0996a241180ccbdb898 | todos-os-arquivos.txt
-Erick | 83bf3f22dc6abe1882f0b3516a29174c | todos-os-arquivos.txt
-Aldi | 27995247488fcfce15d989c2fe79a0a7 | todos-os-arquivos.txt
-Marina | d41d8cd98f00b204e9800998ecf8427e | todos-os-arquivos.txt
-Ivone | 424ca4a748b6b43991ecb4dd0370ee77 | todos-os-arquivos.txt
-Andressa | d41d8cd98f00b204e9800998ecf8427e | todososarquivos.txt
-Geovana | 24f0f055ba9d2f783dcb3c549fc4e42e | todos-os-arquivos.txt
 
 
 ## unzip - Descompactar
